@@ -1,0 +1,25 @@
+.project{
+    width: 100%;
+    padding: 70px 120px;
+
+    .project-title{
+        text-align: center;
+        padding: 30px;
+        font-size: 40px;
+    }
+}
+
+.project-boxes{
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+    flex-wrap: wrap;
+    gap: 30px;
+    font-size: 10px;
+    h1{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 20px;
+    }
+}

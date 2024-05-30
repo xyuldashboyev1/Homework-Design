@@ -1,0 +1,149 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  font-family: sans-serif;
+}
+
+header {
+  width: 100%;
+  padding: 0 120px;
+  box-shadow: 1px 1px 10px lightgray;
+}
+
+nav {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100px;
+}
+nav .nav-links ul {
+  display: flex;
+  gap: 50px;
+}
+nav .nav-links ul li a {
+  color: black;
+  font-size: 20px;
+}
+nav .nav-links ul li .home-a {
+  color: #F35F2F;
+}
+nav .nav-btn button {
+  padding: 15px 30px;
+  background-color: #F35F2F;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.hero {
+  width: 100%;
+  padding: 70px 120px;
+  display: flex;
+  gap: 50px;
+}
+.hero .hero-text {
+  font-size: 30px;
+  letter-spacing: 1px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.hero .hero-btn {
+  padding: 30px;
+}
+.hero .hero-btn button {
+  padding: 15px 30px;
+  background-color: #F35F2F;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.service {
+  width: 100%;
+  padding: 70px 120px;
+}
+.service .service-title {
+  text-align: center;
+  padding: 30px;
+  font-size: 40px;
+}
+
+.service-icons {
+  width: 100%;
+  border-radius: 17px;
+  border: 2px;
+  box-shadow: 1px 1px 10px lightgray;
+  display: flex;
+  justify-content: space-around;
+  padding: 50px;
+}
+.service-icons .box1 {
+  padding: 25px;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  font-size: 25px;
+}
+
+.offering {
+  width: 100%;
+  padding: 70px 120px;
+}
+.offering .offering-title {
+  text-align: center;
+  padding: 30px;
+  font-size: 40px;
+}
+
+.offering-boxes {
+  display: flex;
+  justify-content: space-around;
+  padding: 50px;
+}
+
+.offering-box1 {
+  width: 365px;
+  height: 302px;
+  border: 23px;
+  box-shadow: 1px 1px 10px lightgray;
+}
+
+.offering-box1 {
+  padding: 25px;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  font-size: 22px;
+}
+
+.project {
+  width: 100%;
+  padding: 70px 120px;
+}
+.project .project-title {
+  text-align: center;
+  padding: 30px;
+  font-size: 40px;
+}
+
+.project-boxes {
+  display: flex;
+  justify-content: space-around;
+  padding: 50px;
+  flex-wrap: wrap;
+  gap: 30px;
+  font-size: 10px;
+}
+.project-boxes h1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}

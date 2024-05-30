@@ -1,0 +1,26 @@
+.service{
+    width: 100%;
+    padding: 70px 120px;
+    .service-title{
+        text-align: center;
+        padding: 30px;
+        font-size: 40px;
+    }
+}
+.service-icons{
+    width: 100%;
+    border-radius: 17px;
+    border: 2px;
+    box-shadow: 1px 1px 10px lightgray;
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+
+    .box1{
+        padding: 25px;
+        display: flex;
+        flex-direction: column;
+        gap: 25px;
+        font-size: 25px;
+    }
+}

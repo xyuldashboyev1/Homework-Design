@@ -1,0 +1,31 @@
+.offering{
+    width: 100%;
+    padding: 70px 120px;
+    .offering-title{
+        text-align: center;
+        padding: 30px;
+        font-size: 40px;
+    }
+}
+
+.offering-boxes{
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+}
+.offering-box1{
+    width: 365px;
+    height: 302px;
+    border: 23px;
+    // color: #ffff;
+    box-shadow: 1px 1px 10px lightgray;
+
+}
+
+.offering-box1{
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    font-size: 22px;
+}
